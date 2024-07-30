@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export function getDetails(ticker: any) {
+export function getDetails(ticker) {
     
     const [data, setData] =  useState(null);
    
